@@ -1,3 +1,6 @@
-# Swathi-s-Chatbot
+# Swathi's-Chatbot
+
+🔊 Voice Output Feature (Streamlit Chatbot)
+This Streamlit-based chatbot includes an integrated voice output feature that enhances user interaction by converting text responses into speech. Instead of using pyttsx3—which may conflict with Streamlit’s event loop—the application uses gTTS (Google Text-to-Speech) to generate speech from text. The audio is saved as an MP3 file and played in-browser using st.audio, ensuring smooth, asynchronous operation. This approach makes the chatbot more accessible, especially for users with visual impairments or reading difficulties, and adds a dynamic, user-friendly layer to the interface.
 
 This is an interactive AI-powered **portfolio chatbot** that presents the resume of *Annabathuni Swathi*, a B.Tech student in Artificial Intelligence and Machine Learning. Built using **Streamlit**, it allows users to ask questions about her skills, education, projects, internships, and more. The chatbot responds with accurate details extracted from her resume and includes a **voice assistant** feature using `pyttsx3` for text-to-speech. It's designed to showcase Swathi’s profile in an engaging and conversational way, ideal for recruiters and professionals exploring her qualifications and achievements.
