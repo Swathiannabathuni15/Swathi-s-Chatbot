@@ -1,1 +1,3 @@
 # Swathi-s-Chatbot
+
+This is an interactive AI-powered **portfolio chatbot** that presents the resume of *Annabathuni Swathi*, a B.Tech student in Artificial Intelligence and Machine Learning. Built using **Streamlit**, it allows users to ask questions about her skills, education, projects, internships, and more. The chatbot responds with accurate details extracted from her resume and includes a **voice assistant** feature using `pyttsx3` for text-to-speech. It's designed to showcase Swathi’s profile in an engaging and conversational way, ideal for recruiters and professionals exploring her qualifications and achievements.
